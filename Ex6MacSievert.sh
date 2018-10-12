@@ -25,6 +25,8 @@ SetObservations=nrow(setosa)*4
 versicolor = subset(file, Species =='versicolor')
 VersObservations=nrow(versicolor)*4
 
+### Brittni: Just for clarification, "observations" is often referred to as the rows, because every row is a different sample. I didn't take any points for this though.
+
 #3 copies all rows with sepal.width > 3.5 to new dataframe
 sepal35 = subset(file, Sepal.Width > 3.5)
 
